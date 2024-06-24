@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 let data = {
-  integrantes: [{ nome: "Mateus Wolf" }, { nome: "Alex Pfaffenzeller" }],
+  integrantes: [{ nome: "Alex Pfaffenzeller" }, { nome: "João Maia" }],
 };
 
 app.get("/", (req, res) => {
