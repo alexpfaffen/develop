@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  font-style: initial;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0px 0px 30px 0px;
+}
+
+.code {
+  display: flex;
+}
+
+.white {
+  color: #fff;
+  margin-left: 2px;
+}
+
+.yellow {
+  color: #d3d06b;
+}
+
+.red {
+  color: #d72a6a;
+}
+
+.blue {
+  color: #5fc8ce;
+}
+
+.green {
+  color: #ace535;
+}
+
+.tabe {
+  margin-left: 35px;
+}
+
+.space {
+  margin-left: 10px;
+}
