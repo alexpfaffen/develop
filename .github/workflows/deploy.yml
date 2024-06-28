@@ -59,7 +59,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ALEXTOKEN }}
+          token: ${{ secrets.DEVELOPER_KEY }}
 
       - name: Set up Git
         run: |
