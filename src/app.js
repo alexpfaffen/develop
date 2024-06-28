@@ -13,6 +13,6 @@ app.get("/integrantes", (req, res) => {
   res.json(data);
 });
 
-app.listen(http://18.231.228.139/, () => {
+app.listen(3000, () => {
   console.log("Servidor rodando na porta 3000");
 });
